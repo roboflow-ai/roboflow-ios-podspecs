@@ -5,6 +5,6 @@ Pod::Spec.new do |spec|
 	spec.version = '0.0.1'
 	spec.summary = 'A framework for interfacing with Roboflow'
   	spec.source = { :git => 'https://github.com/roboflow-ai/roboflow-ios-source.git', :tag => 'v0.0.1' }
-  	spec.source_files = 'roboflow-ios-source/**/*.{swift}'
+  	spec.source_files = 'roboflow-ios-source/Roboflow/Roboflow/**/*.{swift}
   	#spec.dependency = 'Alamofire' 
 end
