@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-	spec.name = 'Roboflow'
+	spec.name = 'Roboflow 0.0.1'
 	spec.authors = 'https://www.roboflow.com'
 	spec.homepage = 'https://www.roboflow.com'
 	spec.version = '0.0.1'
