@@ -1,4 +1,4 @@
-Pod::Spec.new do |s|
+Pod::Spec.new do |spec|
 	s.name = 'Roboflow'
 	s.version = '0.0.1'
 	s.summary = 'A framework for interfacing with Roboflow'
