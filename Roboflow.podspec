@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
-	s.name = 'Roboflow'
-	s.version = '0.0.1'
-	s.summary = 'A framework for interfacing with Roboflow'
-	s.source = {:git => "https://github.com/roboflow-ai/roboflow-ios-source"}
+	spec.name = 'Roboflow'
+	spec.version = '0.0.1'
+	spec.summary = 'A framework for interfacing with Roboflow'
+	spec.source = {:git => "https://github.com/roboflow-ai/roboflow-ios-source"}
 end
