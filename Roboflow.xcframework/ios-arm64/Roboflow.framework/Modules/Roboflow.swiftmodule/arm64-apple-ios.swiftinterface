@@ -1,0 +1,26 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target arm64-apple-ios15.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Roboflow
+import Alamofire
+import CoreML
+import Foundation
+@_exported import Roboflow
+import Swift
+import UIKit
+import Vision
+import _Concurrency
+extension Swift.String : Swift.Error {
+}
+@objc @_inheritsConvenienceInitializers public class RFObjectDetectionModel : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  public func configure(threshold: Swift.Float, overlap: Swift.Float, maxObjects: Swift.Float)
+  public func detect(image: UIKit.UIImage, completion: @escaping (([Roboflow.Detection]?, Swift.Error?) -> Swift.Void))
+  @objc deinit
+}
+public struct Detection {
+}
+@objc public class Roboflow : ObjectiveC.NSObject {
+  public init(apiKey: Swift.String)
+  public func load(model: Swift.String, modelVersion: Swift.Int, completion: @escaping (Roboflow.RFObjectDetectionModel?, Swift.Error?, Swift.String, Swift.String) -> ())
+  @objc deinit
+}
