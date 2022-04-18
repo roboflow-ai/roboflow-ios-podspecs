@@ -15,5 +15,5 @@ Pod::Spec.new do |spec|
   spec.dependency 'Alamofire' , '~> 5.4.3' 
 
   # Published binaries
-  vendored_frameworks = "Roboflow.xcframework"
+  vendored_frameworks = "Roboflow.framework"
 end
