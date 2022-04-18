@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.license            = { :type => "MIT" }
   spec.author             = { "Roboflow" => "..." }
   spec.swift_version      = "5.3"
-  spec.source            = { :http => 'https://github.com/roboflow-ai/roboflow-ios-source/releases/download/v0.0.0.1/Roboflow.framework.zip' }
+#  spec.source            = { :http => 'https://github.com/roboflow-ai/roboflow-ios-source/releases/download/v0.0.0.1/Roboflow.framework.zip' }
   spec.dependency 'Alamofire' , '~> 5.4.3' 
   spec.ios.vendored_frameworks = 'Roboflow.framework'
 
