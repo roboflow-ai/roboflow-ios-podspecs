@@ -1,4 +1,23 @@
 Pod::Spec.new do |spec|
+	spec.name = 'Roboflow'
+	spec.platform = :ios, '15.2'
+	spec.ios.deployment_target = '15.2'
+	spec.authors = 'https://www.roboflow.com'
+	spec.homepage = 'https://www.roboflow.com'
+	spec.version = '0.0.1'
+	spec.swift_versions = '5.0'
+	spec.summary = 'A framework for interfacing with Roboflow'
+  	spec.source = { :git => 'https://github.com/roboflow-ai/roboflow-ios-podspecs.git', 
+  			:tag => '0.0.1'}
+	spec.license = { :type => 'MIT', :file => 'MIT-LICENSE.txt' }
+ 	# Published binaries
+  	vendored_frameworks = 'Roboflow.framework'
+end
+
+
+
+
+Pod::Spec.new do |spec|
   spec.name               = "Roboflow"
   spec.version            = "0.0.1"
   spec.platform = :ios, '15.2'
@@ -12,7 +31,8 @@ Pod::Spec.new do |spec|
   spec.author             = { "Roboflow" => "..." }
   spec.source             = { :git => 'https://github.com/roboflow-ai/roboflow-ios-podspecs.git', :tag => "#{spec.version}" }
   spec.swift_version      = "5.3"
- 
+  spec.dependency 'Alamofire' , '~> 5.4.3' 
+
   # Published binaries
-  vendored_frameworks = "Roboflow.xcframework"
+  vendored_frameworks = "Roboflow.framework"
 end
