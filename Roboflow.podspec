@@ -12,5 +12,5 @@ Pod::Spec.new do |spec|
   			:tag => 'v0.0.1' }
   	spec.dependency 'Alamofire' 
  	# Published binaries
-  	vendored_frameworks = "Roboflow.xcframework"
+  	spec.framework = "Roboflow.xcframework"
 end
