@@ -12,7 +12,8 @@ Pod::Spec.new do |spec|
   spec.author             = { "Roboflow" => "..." }
   spec.swift_version      = "5.3"
   spec.dependency 'Alamofire' , '~> 5.4.3' 
+  spec.ios.vendored_frameworks = 'Roboflow.framework'
 
   # Published binaries
-  sepc.ios.vendored_frameworks = "Roboflow.framework"
+
 end
