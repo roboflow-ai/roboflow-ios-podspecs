@@ -10,7 +10,6 @@ Pod::Spec.new do |spec|
   spec.swift_versions = '5.0'
   spec.license            = { :type => "MIT" }
   spec.author             = { "Roboflow" => "..." }
-  spec.source             = { :git => 'https://github.com/roboflow-ai/roboflow-ios-podspecs.git', :tag => "#{spec.version}" }
   spec.swift_version      = "5.3"
   spec.dependency 'Alamofire' , '~> 5.4.3' 
   spec.source           = { :git => "https://github.com/roboflow-ai/roboflow-ios-source" }
