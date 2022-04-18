@@ -13,7 +13,9 @@ Pod::Spec.new do |spec|
   spec.source             = { :git => 'https://github.com/roboflow-ai/roboflow-ios-podspecs.git', :tag => "#{spec.version}" }
   spec.swift_version      = "5.3"
   spec.dependency 'Alamofire' , '~> 5.4.3' 
+  spec.source           = { :git => "https://github.com/roboflow-ai/roboflow-ios-source" }
+
 
   # Published binaries
-  vendored_frameworks = "Roboflow.framework"
+  #vendored_frameworks = "Roboflow.framework"
 end
