@@ -9,7 +9,8 @@ Pod::Spec.new do |spec|
 	spec.summary = 'A framework for interfacing with Roboflow'
   	spec.source = { :git => 'https://github.com/roboflow-ai/roboflow-ios-podspecs.git', 
   		    :branch => 'main'}
-  	spec.dependency 'Alamofire' 
+  	spec.dependency 'Alamofire' , '~> 5.4.3' 
+  	spec.license = 'UNLICENSED'
  	# Published binaries
   	vendored_frameworks = "Roboflow.framework"
 end
