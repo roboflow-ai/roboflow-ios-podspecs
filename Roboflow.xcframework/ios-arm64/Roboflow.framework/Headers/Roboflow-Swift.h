@@ -221,8 +221,8 @@ SWIFT_CLASS("_TtC8Roboflow22RFObjectDetectionModel")
 
 
 /// Interface for interacting with the Roboflow API
-SWIFT_CLASS("_TtC8Roboflow8Roboflow")
-@interface Roboflow : NSObject
+SWIFT_CLASS("_TtC8Roboflow15RoboflowWrapper")
+@interface RoboflowWrapper : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

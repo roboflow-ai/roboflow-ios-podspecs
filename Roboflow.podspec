@@ -3,17 +3,15 @@ Pod::Spec.new do |spec|
   spec.version            = "0.0.1"
   spec.platform = :ios, '15.2'
   spec.ios.deployment_target = '15.2'
-  spec.summary            = "A framework for interfacing with Robof"
+  spec.summary            = "A framework for interfacing with Roboflow"
   spec.description        = "https://www.roboflow.com"
   spec.homepage           = "https://www.roboflow.com"
   spec.documentation_url  = "https://www.roboflow.com"
   spec.swift_versions = '5.0'
-  spec.license            = { :type => "MIT" }
+  spec.license = { :type => 'Commercial', :text => 'See https://roboflow.com' }
   spec.author             = { "Roboflow" => "..." }
   spec.swift_version      = "5.3"
-  spec.source            = { :http => 'https://github.com/roboflow-ai/roboflow-ios-source/releases/download/v0.0.0.1/Roboflow.xcframework.zip' }
+  spec.source            = { :http => 'https://github.com/roboflow-ai/roboflow-ios-podspecs/tree/testing-xcframework/Roboflow.xcframework' }
   spec.dependency 'Alamofire' , '~> 5.4.3' 
   spec.ios.vendored_frameworks = 'Roboflow.xcframework'
-
-
 end
