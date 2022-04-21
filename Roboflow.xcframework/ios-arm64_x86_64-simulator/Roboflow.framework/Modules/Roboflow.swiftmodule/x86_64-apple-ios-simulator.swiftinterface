@@ -23,6 +23,7 @@ extension Swift.String : Swift.Error {
   @objc deinit
 }
 public struct Detection {
+  public func vals() -> [Swift.String : Any]
 }
 @objc public class RoboflowWrapper : ObjectiveC.NSObject {
   public init(apiKey: Swift.String)
