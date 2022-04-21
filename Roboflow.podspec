@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "Roboflow"
-  spec.version            = "0.0.7"
+  spec.version            = "0.0.8"
   spec.platform = :ios, '15.2'
   spec.ios.deployment_target = '15.2'
   spec.summary            = "A framework for interfacing with Roboflow"
@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.license = { :type => 'Commercial', :text => 'See https://roboflow.com' }
   spec.author             = { "Roboflow" => "..." }
   spec.swift_version      = "5.3"
-  spec.source            = { :http => 'https://github.com/roboflow-ai/roboflow-ios-podspecs/releases/download/0.0.7/Roboflow.xcframework.zip' }
+  spec.source            = { :http => 'https://github.com/roboflow-ai/roboflow-ios-podspecs/releases/download/0.0.8/Roboflow.xcframework.zip' }
   spec.ios.vendored_frameworks = 'Roboflow.xcframework'
 end
