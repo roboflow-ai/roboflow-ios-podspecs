@@ -12,6 +12,6 @@ Pod::Spec.new do |spec|
   spec.author             = { "Roboflow" => "..." }
   spec.swift_version      = "5.3"
   spec.source            = { :http => 'https://github.com/roboflow-ai/roboflow-ios-podspecs/releases/download/0.0.3/Roboflow.xcframework.zip' }
-  #spec.dependency 'Alamofire' , '~> 5.4.3' 
+  spec.dependency 'Alamofire' , '~> 5.4.3' 
   spec.ios.vendored_frameworks = 'Roboflow.xcframework'
 end
