@@ -14,18 +14,18 @@ extension Swift.String : Swift.Error {
   @objc override dynamic public init()
   public func configure(threshold: Swift.Double, overlap: Swift.Double, maxObjects: Swift.Float)
   @available(*, renamed: "detect(image:)")
-  public func detect(image: UIKit.UIImage, completion: @escaping (([Roboflow.Detection]?, Swift.Error?) -> Swift.Void))
+  public func detect(image: UIKit.UIImage, completion: @escaping (([Roboflow.RFObjectDetectionPrediction]?, Swift.Error?) -> Swift.Void))
   
   #if compiler(>=5.3) && $AsyncAwait
-  public func detect(image: UIKit.UIImage) async -> ([Roboflow.Detection]?, Swift.Error?)
+  public func detect(image: UIKit.UIImage) async -> ([Roboflow.RFObjectDetectionPrediction]?, Swift.Error?)
   #endif
 
   @objc deinit
 }
-public struct Detection {
+public struct RFObjectDetectionPrediction {
   public func vals() -> [Swift.String : Any]
 }
-@objc public class RoboflowWrapper : ObjectiveC.NSObject {
+@objc public class Roboflow : ObjectiveC.NSObject {
   public init(apiKey: Swift.String)
   @available(*, renamed: "load(model:modelVersion:)")
   public func load(model: Swift.String, modelVersion: Swift.Int, completion: @escaping (Roboflow.RFObjectDetectionModel?, Swift.Error?, Swift.String, Swift.String) -> ())
