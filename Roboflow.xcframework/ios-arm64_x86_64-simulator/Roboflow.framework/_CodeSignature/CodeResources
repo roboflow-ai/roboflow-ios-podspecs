@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Roboflow-Swift.h</key>
 		<data>
-		kLoQyYbnrYRPmse7MS1UiKgFWcI=
+		O9Ik/OETBVqtX4i1cHPlInBCsO8=
 		</data>
 		<key>Headers/Roboflow.h</key>
 		<data>
@@ -18,27 +18,27 @@
 		</data>
 		<key>Modules/Roboflow.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0Xi8i4KOymdizkOIudU8l7hpbQ8=
+		5v8h5J3V+565rYqbywBnme9+seU=
 		</data>
 		<key>Modules/Roboflow.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WxrR0a+E0TXp/da7jkA0uEEBcMk=
+		hf9IUHbbxMeL2E0hpShg0N8MC5w=
 		</data>
 		<key>Modules/Roboflow.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AF7WJ0iauZan5wgG7Crn97z0oJ8=
+		X/bel6DUrKGwTJdP0mmr02TJpB8=
 		</data>
 		<key>Modules/Roboflow.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		cV6a5yv5mqgBSjBY0AloiDnH+QI=
+		0/oYairzY9np2S3R3e3aXYkxiQo=
 		</data>
 		<key>Modules/Roboflow.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9587KFASbjWvZoPvjmUJn8uUKXA=
+		KjxuJgeou3KKegW9tXZQOKkJnqY=
 		</data>
 		<key>Modules/Roboflow.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/oLQ7d3B/V6whc4LjbMtjxGCeBg=
+		iCjbrwedh/DlQVNpZ8tYN9a3ZQM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PNmrzWavDBe94INpH818mUOh7l6TlXYKvuQZ5IiA6fo=
+			pUt+OujBN76LRHuh4ilL+8ss4QdwIHu+WarFabWY0VY=
 			</data>
 		</dict>
 		<key>Headers/Roboflow.h</key>
@@ -65,42 +65,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L3s324IK2Ib7KRcTzfkgmVup0YynPl6V5XrIeeaGhqo=
+			bU+XNd06pDFdAKWWxn3RsBqZgA5xlIKLFXF/hGb66og=
 			</data>
 		</dict>
 		<key>Modules/Roboflow.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q6zBKBjFruQnBLfrpbMD9eJVvqi4j7JSryTznmQOzIM=
+			xRGIpnQ2jEgZLTTfD+GMBdP/S7Z5+jGgFUedWhmkyf0=
 			</data>
 		</dict>
 		<key>Modules/Roboflow.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			18fYOQx3EE0oEoI2lP2bxFlNHjyhp4zVYANcuHZRA74=
+			QjCJb/9e6WG3+3pK3/PcXy7RFDzleof+squARiVR4+Y=
 			</data>
 		</dict>
 		<key>Modules/Roboflow.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k2Xo2083C7k2u6IRmkF1cR2NZUhtH5CjeG1cQr1YvjI=
+			9AxDU5kvdNo+IV00RtwSg8Qj6jFzTiGjgazLhwDBWbM=
 			</data>
 		</dict>
 		<key>Modules/Roboflow.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fJcUpdRFNOifUgJuYYEwD6LyMef5UQHcjCd2rp0TGDU=
+			iy908Ij1G7+aEPCv48eaDR4Ve/wn7msZto0pgv9Vp5I=
 			</data>
 		</dict>
 		<key>Modules/Roboflow.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SQHEF8PUIfxJXL4lvdoh34DB50sKTz5Zu8Sjx2/NS9s=
+			SLR92nheZAT4a0vns+jmfU3ZDPl7oe6GuB8Q2AlXq8M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

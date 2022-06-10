@@ -25,7 +25,7 @@ extension Swift.String : Swift.Error {
 public struct RFObjectDetectionPrediction {
   public func vals() -> [Swift.String : Any]
 }
-@objc public class Roboflow : ObjectiveC.NSObject {
+@objc public class RoboflowMobile : ObjectiveC.NSObject {
   public init(apiKey: Swift.String)
   @available(*, renamed: "load(model:modelVersion:)")
   public func load(model: Swift.String, modelVersion: Swift.Int, completion: @escaping (Roboflow.RFObjectDetectionModel?, Swift.Error?, Swift.String, Swift.String) -> ())

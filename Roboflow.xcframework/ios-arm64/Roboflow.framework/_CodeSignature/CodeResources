@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Roboflow-Swift.h</key>
 		<data>
-		Imb9ZpVn2yx+WuRT/dnyJ7M1KFI=
+		UkSMyrKCbUOoiHCC4xh/4E/VvQU=
 		</data>
 		<key>Headers/Roboflow.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Modules/Roboflow.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		AjhPS5EKlMZeqn2wgJ3RXKkr2Tg=
+		GkxVOy2g/Wm9fEij8wswX0171D8=
 		</data>
 		<key>Modules/Roboflow.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		fEVT0iufbhhMZi347b1Pa18eEWA=
+		wSF8Oy5vgmBvs686Gz9bSi3tSI0=
 		</data>
 		<key>Modules/Roboflow.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		MnFKdiF7vOkESd/hX33JIqD6GOc=
+		ajmI/x6j13wGEZmG73j8aPD03nI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,7 +39,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			03D+Si0vvKbOuFrSr52RNOEOyCs5wBBJ+KQ6YIoqQlA=
+			FMU6Se+9pESFBEAIlYPlSbgjAMd+bgR8HDDsL6SPD9Q=
 			</data>
 		</dict>
 		<key>Headers/Roboflow.h</key>
@@ -53,21 +53,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oIG5UVlUaJUzF5eZOIjUW2jS3JqTJQAqdeRNkNXmIzU=
+			0ts1kMAAjxrneeYO9H4Ase58mnWHAh5xFLTlXGNkzF4=
 			</data>
 		</dict>
 		<key>Modules/Roboflow.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3QjbK4ed/h6uSZHqrJezzKt1zcwKBHaQ8HE9O5Pqzso=
+			U9El34qnJSPXymS4WbMP6RCBM0bIRwtyihpnN2eEzcM=
 			</data>
 		</dict>
 		<key>Modules/Roboflow.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zPcQwX+ti5EiE0z1JfxCN4VwPrmox51ieTN5Sav4G3A=
+			x3WpONIXjRsO3zLLrTrTfDIbfLXg4CM7NdAmPzs1vhI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
