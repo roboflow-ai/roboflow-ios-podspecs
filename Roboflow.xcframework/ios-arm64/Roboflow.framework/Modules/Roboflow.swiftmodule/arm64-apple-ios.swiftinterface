@@ -6,6 +6,7 @@ import Foundation
 @_exported import Roboflow
 import Swift
 import UIKit
+import VideoToolbox
 import Vision
 import _Concurrency
 extension Swift.String : Swift.Error {
@@ -18,6 +19,12 @@ extension Swift.String : Swift.Error {
   
   #if compiler(>=5.3) && $AsyncAwait
   public func detect(image: UIKit.UIImage) async -> ([Roboflow.RFObjectDetectionPrediction]?, Swift.Error?)
+  #endif
+
+  public func detect(pixelBuffer: CoreVideo.CVPixelBuffer, completion: @escaping (([Roboflow.RFObjectDetectionPrediction]?, Swift.Error?) -> Swift.Void))
+  
+  #if compiler(>=5.3) && $AsyncAwait
+  public func detect(pixelBuffer: CoreVideo.CVPixelBuffer) async -> ([Roboflow.RFObjectDetectionPrediction]?, Swift.Error?)
   #endif
 
   @objc deinit
@@ -34,5 +41,9 @@ public struct RFObjectDetectionPrediction {
   public func load(model: Swift.String, modelVersion: Swift.Int) async -> (Roboflow.RFObjectDetectionModel?, Swift.Error?, Swift.String, Swift.String)
   #endif
 
+  public func uploadImage(image: UIKit.UIImage, dataset: Swift.String, completion: @escaping (Swift.Bool) -> ())
   @objc deinit
+}
+extension UIKit.UIImage {
+  convenience public init?(pixelBuffer: CoreVideo.CVPixelBuffer)
 }
