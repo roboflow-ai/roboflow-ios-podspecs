@@ -41,7 +41,7 @@ public struct RFObjectDetectionPrediction {
   public func load(model: Swift.String, modelVersion: Swift.Int) async -> (Roboflow.RFObjectDetectionModel?, Swift.Error?, Swift.String, Swift.String)
   #endif
 
-  public func uploadImage(image: UIKit.UIImage, dataset: Swift.String, completion: @escaping (Roboflow.UploadResult) -> ())
+  public func uploadImage(image: UIKit.UIImage, project: Swift.String, completion: @escaping (Roboflow.UploadResult) -> ())
   @objc deinit
 }
 public enum UploadResult {

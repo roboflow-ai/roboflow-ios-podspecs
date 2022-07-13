@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/Roboflow.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		q/6GUzm2QAxnWF2NYNb12W4aZnI=
+		dMmahyU0yewsKShW/WzuGZ0ZYbs=
 		</data>
 		<key>Modules/Roboflow.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1lkFlwTmzBVQxeVLi/8pBwfgxuU=
+		qOgjpjkPcxHKSnzFZyJTWHl+xsA=
 		</data>
 		<key>Modules/Roboflow.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/Roboflow.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mJJrWiLRuWcA0O3GH8UwIkT9950=
+		R0UfbP+431f48I/q0bE5AJIuGdg=
 		</data>
 		<key>Modules/Roboflow.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wTUyyIZbw/CoYX8q8q4Wxlztv1s=
+		3wFa/YqHh7ObLdcoU4/AVFwH7BQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3pZArQjoFqgZaptmNBTzZ5F5ZMNh/i6X5SdWJOrMqnA=
+			hUwwnU5eDsej99qaPKzXqeQ0moBXE1i55G0+nqKGSr8=
 			</data>
 		</dict>
 		<key>Modules/Roboflow.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0fcwpW7nF9MmQGHD34FJDG8NDq23BXS9uZxMUqbY1K4=
+			yn1KW1U0iBZZzMrVDV3QMjmbHXkQO5r7GYwp85rf07U=
 			</data>
 		</dict>
 		<key>Modules/Roboflow.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TT3SOTolMgftxbRkfumDoewd7R9RiggrQiy250jfIg0=
+			0jVmMH5A8jhmHl7N311Syt6/1vfCFiSnmOn/w7mECq8=
 			</data>
 		</dict>
 		<key>Modules/Roboflow.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SERt145RapSxQZZ2nWCGGx5NA4bjREx38LLAD0LaEMs=
+			MI2Cn/ZOvcZCRhtPwA8+qnCJW6O7xNkd/7G4D6uS3Dw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
